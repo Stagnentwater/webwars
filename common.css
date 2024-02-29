@@ -1,0 +1,73 @@
+.mainbox{ /* Replace with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+            height: 300px; /* Set the height of your box */
+            width: 500px; /* Set the width of your box */
+            border: 20px solid white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto; /* Center the box horizontally */
+            margin-top: 20px; /* Add some top margin for better spacing */
+}
+.main{
+    background-image: url('assets/college_pic.png');
+    width: 100%;
+    background-size: cover;
+}
+.img_college{
+    width: 100%;
+    
+}
+header{
+    flex-direction: row;
+}
+.logo_main{
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    
+}
+body{
+    background-color: #d7e4c0;
+}
+nav{
+
+    display: flex;
+    background-color: #c6dcba;
+    padding: 15px;
+    flex-direction: row;
+
+
+}
+nav.hover{
+    display: flex;
+
+}
+.navlist{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+    justify-content: flex-end;
+    margin-left: 15%;
+
+}
+li{
+    display: flex;
+    border: 3px solid white;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 15px;
+    min-width: 120px;
+    align-content: center;
+    justify-content: center;
+    
+}
+a{
+    color:black;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1{
+
+}
